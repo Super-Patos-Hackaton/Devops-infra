@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-06-21 16:08:08.640 UTC</timestamp>
+  <md5sum>e8f5b847cfaf59f4ad9f79354173456d</md5sum>
+  <fileName>Credential id=48be16d9-47db-4759-be13-c8c5ed996d34 name=Luiz-AVcruz/****** (Github Luiz-AVcruz)</fileName>
+  <usages>
+    <entry>
+      <string>devops-pipeline/development_beta</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Lint Front-End/development_beta</string>
+      <ranges>1-4</ranges>
+    </entry>
+    <entry>
+      <string>devops-pipeline/main</string>
+      <ranges>1-2,10-18,20-25</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

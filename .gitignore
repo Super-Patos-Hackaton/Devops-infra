@@ -1,0 +1,7 @@
+jenkins/caches/
+
+node_modules/
+postgresql/data/
+*.log
+.DS_Store
+.env

@@ -1,0 +1,9 @@
+commit d74a0609276d9f153eba613a5806bfcdca435ac3
+tree 125628a481680f4983dfb4616060fbf71bb6164d
+parent d60e30eb040adcb565cad7d18141f744691e4eec
+author Luiz Augusto Vitorino Cruz <85916609+Luiz-AVcruz@users.noreply.github.com> 2024-06-22 18:42:04 -0300
+committer GitHub <noreply@github.com> 2024-06-22 18:42:04 -0300
+
+    Update status check on Jenkinsfile
+
+:100644 100644 1f1ea67fb9a7684864087e9fb9a5d6b0d8dbcb27 0f441c63ec049899fe379bd2c9aa700ea9e592c9 M	Jenkinsfile

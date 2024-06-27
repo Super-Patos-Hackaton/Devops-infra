@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://nginx:81",
+  "video": false,
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "integrationFolder": "cypress/integration"
+}
