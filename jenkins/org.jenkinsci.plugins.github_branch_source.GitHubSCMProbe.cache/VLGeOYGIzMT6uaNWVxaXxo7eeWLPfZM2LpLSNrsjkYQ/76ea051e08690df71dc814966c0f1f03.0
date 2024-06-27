@@ -1,18 +1,24 @@
-https://api.github.com/rate_limit
+https://api.github.com/repos/Super-Patos-Hackaton/Devops-infra/contents/Jenkinsfile?ref=9db534fe77b3e14ebb1f2fc87b4bb2a7718cedd9
 GET
-2
+3
 Accept: application/vnd.github.v3+json
 Accept-Encoding: gzip
+Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
-28
-server: istio-envoy
-date: Thu, 27 Jun 2024 18:25:08 GMT
+31
 content-type: application/json; charset=utf-8
-cache-control: no-cache
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: 
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
+content-encoding: gzip
+x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:25:09 GMT
+cache-control: private, max-age=60, s-maxage=60
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+etag: "beb5f29aa0111076bf2b79f9791034044770990f"
+last-modified: Thu, 27 Jun 2024 17:51:26 GMT
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
 x-ratelimit-remaining: 4990
@@ -27,12 +33,10 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-content-encoding: gzip
-x-envoy-upstream-service-time: 36
-x-github-request-id: BFAE:279FD2:82D0420:84C26A2:667DAE83
-OkHttp-Sent-Millis: 1719512707995
-OkHttp-Received-Millis: 1719512708344
+x-envoy-upstream-service-time: 68
+x-github-request-id: BFAE:279FD2:82D06C2:84C294D:667DAE85
+OkHttp-Sent-Millis: 1719512709547
+OkHttp-Received-Millis: 1719512709927
 
 TLS_AES_128_GCM_SHA256
 3

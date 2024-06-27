@@ -6,22 +6,23 @@ Accept-Encoding: gzip
 Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
 30
-server: GitHub.com
-date: Sat, 22 Jun 2024 19:44:33 GMT
 content-type: application/json; charset=utf-8
-cache-control: private, max-age=60, s-maxage=60
-vary: Accept, Authorization, Cookie, X-GitHub-OTP
-etag: W/"1f60d60899b95c6ad8d90fde5da1b36c5750c132"
-last-modified: Sat, 22 Jun 2024 18:54:23 GMT
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: 
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
+content-encoding: gzip
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:15:42 GMT
+cache-control: private, max-age=60, s-maxage=60
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+etag: "bd2e9b74ec4cfd2be25de2bd8b14c19d7727e626"
+last-modified: Thu, 27 Jun 2024 18:12:46 GMT
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
-x-ratelimit-remaining: 4980
-x-ratelimit-reset: 1719085709
-x-ratelimit-used: 20
+x-ratelimit-remaining: 4993
+x-ratelimit-reset: 1719515694
+x-ratelimit-used: 7
 x-ratelimit-resource: core
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 access-control-allow-origin: *
@@ -31,11 +32,10 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-content-encoding: gzip
-x-github-request-id: D480:B8A1E:4B8296B:4C7C41B:667729A1
-OkHttp-Sent-Millis: 1719085473500
-OkHttp-Received-Millis: 1719085473763
+x-envoy-upstream-service-time: 63
+x-github-request-id: D662:2E4C61:66B1A2A:6838890:667DAC4E
+OkHttp-Sent-Millis: 1719512142365
+OkHttp-Received-Millis: 1719512142742
 
 TLS_AES_128_GCM_SHA256
 3

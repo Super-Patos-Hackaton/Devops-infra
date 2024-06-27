@@ -5,25 +5,23 @@ Accept: application/vnd.github.v3+json
 Accept-Encoding: gzip
 Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
-31
+30
 content-type: application/json; charset=utf-8
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: 
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
 content-encoding: gzip
-x-envoy-upstream-service-time: 26
-x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
-server: GitHub.com
-date: Sat, 22 Jun 2024 21:42:24 GMT
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:25:07 GMT
 cache-control: private, max-age=60, s-maxage=60
-vary: Accept, Authorization, Cookie, X-GitHub-OTP
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
 etag: "2eb8a8edb4445e07a04e6724efc780a8b9ba58aaf893a51e45f3850520b87cd2"
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
-x-ratelimit-remaining: 4996
-x-ratelimit-reset: 1719095548
-x-ratelimit-used: 4
+x-ratelimit-remaining: 4990
+x-ratelimit-reset: 1719515694
+x-ratelimit-used: 10
 x-ratelimit-resource: core
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 access-control-allow-origin: *
@@ -33,10 +31,11 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-x-github-request-id: C736:1B3CD3:13A24EF:13F52E5:66774540
-OkHttp-Sent-Millis: 1719092544297
-OkHttp-Received-Millis: 1719092544564
+x-envoy-upstream-service-time: 25
+x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
+x-github-request-id: BFAE:279FD2:82D039E:84C2623:667DAE83
+OkHttp-Sent-Millis: 1719512707505
+OkHttp-Received-Millis: 1719512707991
 
 TLS_AES_128_GCM_SHA256
 3

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-06-27 18:25:13.455 UTC</timestamp>
+  <md5sum>367b2eaefbec4eb3dfec25c52709bab1</md5sum>
+  <fileName>Credential id=POSTGRES_USER name=Usuário do PostgreSQL</fileName>
+  <usages>
+    <entry>
+      <string>devops-pipeline/main</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

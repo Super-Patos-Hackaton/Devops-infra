@@ -5,26 +5,23 @@ Accept: application/vnd.github.v3+json
 Accept-Encoding: gzip
 Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
-32
+31
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:15:07 GMT
 content-type: application/json; charset=utf-8
+cache-control: private, max-age=60, s-maxage=60
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+etag: W/"a4900f48d1774d04ab967dbf6c00031f54d4b3cce2a1247f608ab7a3e81d6c90"
+last-modified: Tue, 04 Jun 2024 18:44:04 GMT
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: 
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
-content-encoding: gzip
-x-envoy-upstream-service-time: 42
-x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
-server: GitHub.com
-date: Sat, 22 Jun 2024 21:32:29 GMT
-cache-control: private, max-age=60, s-maxage=60
-vary: Accept, Authorization, Cookie, X-GitHub-OTP
-etag: "9526e868e14a19bcc9eace76165f3462c0e4561b35148dbc3eed3484227eaf0b"
-last-modified: Tue, 04 Jun 2024 18:44:04 GMT
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
-x-ratelimit-remaining: 4999
-x-ratelimit-reset: 1719095548
-x-ratelimit-used: 1
+x-ratelimit-remaining: 4995
+x-ratelimit-reset: 1719515694
+x-ratelimit-used: 5
 x-ratelimit-resource: core
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 access-control-allow-origin: *
@@ -34,10 +31,12 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-x-github-request-id: 971C:BA2E1:4EF3F2F:4FF7037:667742EC
-OkHttp-Sent-Millis: 1719091949061
-OkHttp-Received-Millis: 1719091949308
+content-encoding: gzip
+x-envoy-upstream-service-time: 55
+x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
+x-github-request-id: D662:2E4C61:66ADBC3:6834977:667DAC2B
+OkHttp-Sent-Millis: 1719512107296
+OkHttp-Received-Millis: 1719512107667
 
 TLS_AES_128_GCM_SHA256
 3

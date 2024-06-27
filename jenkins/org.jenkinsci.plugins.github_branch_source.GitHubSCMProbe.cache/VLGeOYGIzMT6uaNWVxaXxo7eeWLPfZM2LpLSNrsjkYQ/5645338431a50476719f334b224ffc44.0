@@ -5,26 +5,25 @@ Accept: application/vnd.github.v3+json
 Accept-Encoding: gzip
 Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
-32
+31
 content-type: application/json; charset=utf-8
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: repo
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
 content-encoding: gzip
-x-envoy-upstream-service-time: 118
 x-envoy-decorator-operation: unicorn-api.github-production.svc.cluster.local:80/*
-server: GitHub.com
-date: Sat, 22 Jun 2024 19:44:44 GMT
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:25:17 GMT
 cache-control: private, max-age=60, s-maxage=60
-vary: Accept, Authorization, Cookie, X-GitHub-OTP
-etag: "a759789f95e3d2db43dbc1bb122c38b97dce367e8dc73d896b7b6993a10dccb1"
-last-modified: Sat, 22 Jun 2024 18:54:23 GMT
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+etag: "998c0019c91efc46e143759944f1f13cde8764e6cd6e19e4df6dd3e9463a9889"
+last-modified: Thu, 27 Jun 2024 18:12:46 GMT
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
-x-ratelimit-remaining: 4980
-x-ratelimit-reset: 1719085709
-x-ratelimit-used: 20
+x-ratelimit-remaining: 4988
+x-ratelimit-reset: 1719515694
+x-ratelimit-used: 12
 x-ratelimit-resource: core
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 access-control-allow-origin: *
@@ -34,10 +33,10 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-x-github-request-id: D480:B8A1E:4B8434F:4C7DE4C:667729AC
-OkHttp-Sent-Millis: 1719085484721
-OkHttp-Received-Millis: 1719085485014
+x-envoy-upstream-service-time: 109
+x-github-request-id: BFAE:279FD2:82D1573:84C383D:667DAE8B
+OkHttp-Sent-Millis: 1719512717704
+OkHttp-Received-Millis: 1719512718126
 
 TLS_AES_128_GCM_SHA256
 3

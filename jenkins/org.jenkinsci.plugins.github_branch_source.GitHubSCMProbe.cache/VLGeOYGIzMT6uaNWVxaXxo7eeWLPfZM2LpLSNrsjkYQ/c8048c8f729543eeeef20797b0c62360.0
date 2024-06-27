@@ -6,21 +6,22 @@ Accept-Encoding: gzip
 Authorization: Basic THVpei1BVmNydXo6Z2hwX3owcDNtNTc3ZVlvUktwVTd4T256OXEzeGlPZlBtNDNzcE1USg==
 HTTP/1.1 200 
 29
-server: GitHub.com
-date: Sat, 22 Jun 2024 19:44:32 GMT
 content-type: application/json; charset=utf-8
-cache-control: private, max-age=60, s-maxage=60
-vary: Accept, Authorization, Cookie, X-GitHub-OTP
-etag: W/"d587a816dd265b5b5ca8b263eccac0e93cf4c6d89bb93144b11800e5b2f6e011"
 x-oauth-scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
 x-accepted-oauth-scopes: 
 github-authentication-token-expiration: 2025-06-21 03:00:00 UTC
 x-github-media-type: github.v3; format=json
+content-encoding: gzip
+server: istio-envoy
+date: Thu, 27 Jun 2024 18:15:41 GMT
+cache-control: private, max-age=60, s-maxage=60
+vary: Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+etag: "17d99b652258e8f1f38eb6c999fa7085ed0e7c37b22a4f06d52f7784d40aa5d2"
 x-github-api-version-selected: 2022-11-28
 x-ratelimit-limit: 5000
-x-ratelimit-remaining: 4981
-x-ratelimit-reset: 1719085709
-x-ratelimit-used: 19
+x-ratelimit-remaining: 4993
+x-ratelimit-reset: 1719515694
+x-ratelimit-used: 7
 x-ratelimit-resource: core
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
 access-control-allow-origin: *
@@ -30,11 +31,10 @@ x-content-type-options: nosniff
 x-xss-protection: 0
 referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
 content-security-policy: default-src 'none'
-vary: Accept-Encoding, Accept, X-Requested-With
-content-encoding: gzip
-x-github-request-id: D480:B8A1E:4B827B9:4C7C26A:667729A0
-OkHttp-Sent-Millis: 1719085472797
-OkHttp-Received-Millis: 1719085473069
+x-envoy-upstream-service-time: 72
+x-github-request-id: D662:2E4C61:66B1941:683879E:667DAC4D
+OkHttp-Sent-Millis: 1719512141589
+OkHttp-Received-Millis: 1719512141976
 
 TLS_AES_128_GCM_SHA256
 3
