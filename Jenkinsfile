@@ -1,30 +1,37 @@
 pipeline {
     agent any
+    environment {
+        POSTGRES_USER = credentials('POSTGRES_USER')
+        POSTGRES_PASSWORD = credentials('POSTGRES_PASSWORD')
+    }
     stages {
         stage('Checkout') {
             steps {
-                sh 'echo Checking out SCM...'
                 checkout scm
-                sh 'echo SCM checkout completed.'
-                sh 'pwd'
-                sh 'ls -la'
             }
         }
         stage('Build') {
             steps {
                 sh 'echo Building DevOps Stack'
+                sh 'docker-compose build'
             }
         }
         stage('Test') {
             steps {
-                sh 'echo Testing DevOps Stack'
+                sh 'echo Running Cypress Tests'
+                sh 'docker-compose run cypress'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'echo Testing DevOps Stack'
-
+                sh 'echo Deploying DevOps Stack'
+                // Adicione os comandos de deploy conforme necessário
             }
+        }
+    }
+    post {
+        always {
+            cleanWs()
         }
     }
 }
